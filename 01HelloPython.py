@@ -72,6 +72,8 @@ format() 함수
 print("{0}는 중복되지 않는 숫자 {1}개로 구성된다.".format("Looto", 6))
 print("{1}는 중복되지 않는 숫자 {0}개로 구성된다.".format("Lotto", 6))
 
+# 인덱스 대신 변수를 사용하는 방법. 단 default값을 지정할때는 
+# name=value형태로 기술한다.
 menu1 = "치킨"
 menu2 = "맥주"
 print("오늘 {str}은 {0}과 {1}로 정했다.".format(menu1, menu2, str="저녁"))
